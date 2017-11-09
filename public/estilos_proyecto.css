@@ -1,0 +1,56 @@
+/*Color del header */
+#cabeza {
+	background-color: hotpink;
+	width: 100%;
+}
+/*Boton del header */
+button{
+	background-color: white;
+    color: hotpink;
+     border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+/*Cuando el puntero este sobre el boton */
+button:hover {
+    background-color: hotpink; 
+    color: black; 
+}
+/*Estilo fuente del body */
+body{
+	font-family: 'Lora', serif;
+
+}
+/* Configuracion de las imagenes*/
+img{
+	height: 27%;
+	width: 29%;
+	margin: 5px;
+	transition-duration: 0.4s;
+    cursor: pointer;
+    max-width: 290px;
+    max-height: 290px;
+
+/*Para que las imagenes se mantengan  centradas */
+}
+.card{
+    text-align: center;
+    width: 100%;
+}
+/*Contenido del modal */
+.modal-content{
+	margin: auto;
+    width: 80%;
+    max-width: 700px;
+    height: 80%;
+    max-height: 700px;
+}
+.aa{
+    float: right;
+}
